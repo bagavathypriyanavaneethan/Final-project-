@@ -154,12 +154,12 @@ if butt:
     if loss[0]>THRESHOLD:
         
         st.markdown(
-        f'<div style="color: green; font-size: big">Heartbeat is ABNORMAL</div>',
+        f'<div style="color: red; font-family:verdana;font-weight:bold; font-size: 40px">Heartbeat is ABNORMAL</div>',
         unsafe_allow_html=True)
     else:
         
         st.markdown(
-        f'<div style="color: green; font-size: big">Heartbeat is NORMAL</div>',
+        f'<div style="color: green;font-family:verdana;font-weight:bold; font-size: 40px">Heartbeat is NORMAL</div>',
         unsafe_allow_html=True)
  
     
