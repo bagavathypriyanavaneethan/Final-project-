@@ -10,7 +10,8 @@ Abnormal ECG signal:
 ![image](https://user-images.githubusercontent.com/61631098/113880983-9f39e100-97d9-11eb-9f88-4b108fa50128.png)
 
 
-NEED OF AUTOENCODER
+# NEED OF AUTOENCODER
+
 •	The aim of an auto-encoder is to learn a compressed, distributed representation (encoding) for a set of data.
 •	Auto encoding is useful in the sense that it allows us to compress the data in an optimal way.
 •	It can be used to represent the input data, as observed by the decoding layer.
