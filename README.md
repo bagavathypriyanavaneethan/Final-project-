@@ -3,10 +3,26 @@
 
 The main objective of the project is to predict the abnormal heartbeat from the time series ECG signal using the concept of the autoencoder. With the help of an autoencoder in LSTM models in deep learning , the anomaly in the heart signals can be predicted accurately in this project.
 
+# DATASET
+http://timeseriesclassification.com/description.php?Dataset=ECG5000![image](https://user-images.githubusercontent.com/61631098/113885211-4a986500-97dd-11eb-888f-a54b2d84c079.png)
+
+# Algorithm
+
+- Using LSTM encoder to encode the data.
+- Getting the compressed data from encoder .
+- Using LSTM decoder to decode the compressed data.
+- This will give the general learned representation from the data used.
+- This forms the auto encoder model.
+- The model can be used to predict the patterns of future data.
+- The data can be passed to the model for checking normality / anomality.
+
+
 Normal ECG signal:
+
 ![image](https://user-images.githubusercontent.com/61631098/113880896-87625d00-97d9-11eb-9cb9-4f0971fe3da5.png)
 
 Abnormal ECG signal:
+
 ![image](https://user-images.githubusercontent.com/61631098/113880983-9f39e100-97d9-11eb-9f88-4b108fa50128.png)
 
 
@@ -19,7 +35,9 @@ Abnormal ECG signal:
 
 ![image](https://user-images.githubusercontent.com/61631098/113881330-f5a71f80-97d9-11eb-9588-64fb6fcdd825.png)
 
-SCREENSHOTS 
+
+# SCREENSHOTS 
+
 
 ![image](https://user-images.githubusercontent.com/61631098/113881467-153e4800-97da-11eb-8d7c-fdf4f3c45c58.png)
 
