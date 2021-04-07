@@ -8,6 +8,20 @@ The main objective of the project is to predict the abnormal heartbeat from the 
 # DATASET
 http://timeseriesclassification.com/description.php?Dataset=ECG5000![image](https://user-images.githubusercontent.com/61631098/113885211-4a986500-97dd-11eb-888f-a54b2d84c079.png)
 
+# Language 
+
+Python
+
+## Libraries used
+
+- Pytorch
+- Streamlit
+- Matplotlib
+- Seaborn
+- Pandas
+- Numpy
+- Plotly
+
 # Algorithm
 
 ![image](https://user-images.githubusercontent.com/61631098/113886197-1b362800-97de-11eb-82cf-25e2eff6433d.png)
