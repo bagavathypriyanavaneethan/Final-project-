@@ -9,26 +9,6 @@ Normal ECG signal:
 Abnormal ECG signal:
 ![image](https://user-images.githubusercontent.com/61631098/113880983-9f39e100-97d9-11eb-9f88-4b108fa50128.png)
 
-Block diagram: 
-
-
-
-
-
-
-
-
-
-
-Input ECG signal                                                              Reconstructed ECG input
-
-                                              Compare loss from model
-                                               with anomaly threshold
-
-
-
-                                    Fig.5.1. ARCHITECTURE DESIGN
-
 
 NEED OF AUTOENCODER
 •	The aim of an auto-encoder is to learn a compressed, distributed representation (encoding) for a set of data.
@@ -39,6 +19,7 @@ NEED OF AUTOENCODER
 ![image](https://user-images.githubusercontent.com/61631098/113881330-f5a71f80-97d9-11eb-9588-64fb6fcdd825.png)
 
 SCREENSHOTS 
+
 ![image](https://user-images.githubusercontent.com/61631098/113881467-153e4800-97da-11eb-8d7c-fdf4f3c45c58.png)
 
 ![image](https://user-images.githubusercontent.com/61631098/113881499-1bccbf80-97da-11eb-833d-18a7621cb9a3.png)
